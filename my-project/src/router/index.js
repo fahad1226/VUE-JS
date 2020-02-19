@@ -7,7 +7,7 @@ import Myself from '../components/Myself'
 import Vuetest from '../components/views/Vuetest'
 import Practice from '../components/views/Practice'
 import Api from '../components/views/Api'
-
+import Testbranch from '../components/views/Testbranch'
 
 Vue.use(Router)
 
@@ -33,6 +33,10 @@ export default new Router({
     {
         path: '/api',
         component: Api
+    },
+    {
+        path: '/bracnhb',
+        component Testbranch
     }
     
   ]
